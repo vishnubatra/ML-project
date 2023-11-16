@@ -1,0 +1,62 @@
+#pose-dropdown-btn:hover {
+    border-color: white;
+}
+/* #pose-dropdown-btn:active {
+    background-color: white;
+} */
+#pose-dropdown-btn {
+    width: 400px;
+}
+
+
+
+.dropdown-container {
+    display: flex;
+    justify-content: center;
+    
+}
+#pose-dropdown-btn:focus {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    box-shadow: none;
+}
+#pose-dropdown-btn:focus-within {
+    border-color: rgb(0, 0, 0);
+}
+.dropdown-option {
+    background: url('../../utils/pose_images/chair.png');
+}
+
+.dropdown-custom-menu {
+    overflow: scroll;
+    height: 40vh;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    box-shadow: 0px 0px 0px 2px rgb(101, 101, 101);
+}
+
+.dropdown-custom-menu::-webkit-scrollbar {
+    display: none;
+}
+
+.dropdown-item-container {
+    width: 400px;
+    display: flex;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.dropdown-item-1 {
+    margin: 0px 0px 50px 0px;
+    padding: 0px 0px 0px 0px;
+
+}
+.dropdown-img {
+    width: 70px;
+    height: 70px;
+
+    
+}
